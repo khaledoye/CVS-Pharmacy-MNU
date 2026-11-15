@@ -301,7 +301,7 @@
     function confirmBox() { return true; }
 
     m.appendChild(U.card('Mixed practice — supplementary',
-      U.muted('These are additional items written for this platform, kept separate from the lecture’s own questions.'),
+      U.muted('These are additional items written for this lab, kept separate from the lecture’s own questions.'),
       (function () { const b = h('div', {}); new K.QuizRunner(b, K.practice, { showCase: false }); return b; })()));
 
     m.appendChild(U.card('Can you predict? — the goal of this course',

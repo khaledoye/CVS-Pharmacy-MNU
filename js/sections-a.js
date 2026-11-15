@@ -12,12 +12,12 @@
       h('p', { class: 'lead' }, '“', K.definition, '”'), U.tag('L'),
       h('p', {}, 'Four things can go wrong, and the definition names all four: the ', h('b', {}, 'rate'), ' (too fast, too slow), the ', h('b', {}, 'regularity'), ' (irregular), the ', h('b', {}, 'origin'), ' (a pacemaker other than the SA node) and the ', h('b', {}, 'conduction'), ' (blocked or taking an abnormal route). Every arrhythmia in this lecture is one or more of those four.'),
       U.chain(-1),
-      U.muted('That chain is the spine of this platform: every module links back to it. Click any step to jump.')));
+      U.muted('That chain is the spine of this lab: every module links back to it. Click any step to jump.')));
 
     m.appendChild(U.card('Learning objectives', h('ol', { class: 'obj' }, K.objectives.map((o) => h('li', {}, o)))));
 
     m.appendChild(U.card('How to read the labels',
-      h('p', {}, 'Everything in this platform carries one of these tags, so you always know what you are looking at:'),
+      h('p', {}, 'Everything in this lab carries one of these tags, so you always know what you are looking at:'),
       h('div', { class: 'tiers' }, Object.keys(K.tiers).map((k) => h('div', { class: 'tier' }, U.tag(k), h('span', {}, K.tiers[k][1]))))));
 
     m.appendChild(U.card('What the simulations are — and are not',

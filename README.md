@@ -1,6 +1,6 @@
 # CVS-Pharmacy-MNU — Interactive Cardiac Electrophysiology & Antiarrhythmic Pharmacotherapy Simulator
 
-An interactive learning platform built from the lecture **"Arrythmia"** (PP 907, Pharmacotherapy of
+An interactive learning lab built from the lecture **"Arrythmia"** (PP 907, Pharmacotherapy of
 Cardiovascular Diseases), Clinical Pharmacy Pharm D level 5, Faculty of Pharmacy,
 Mansoura National University.
 
