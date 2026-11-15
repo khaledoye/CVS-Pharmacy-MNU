@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cardiac Electrophysiology &amp; Antiarrhythmic Pharmacotherapy — Interactive Simulator</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="top">
+  <button id="menu" class="iconbtn" aria-label="Menu">☰</button>
+  <div class="brand"><span class="dot"></span><span>Arrhythmia Simulator<small>PP 907 · Pharmacotherapy of Cardiovascular Diseases · Pharm D level 5</small></span></div>
+  <div class="spacer"></div>
+  <div class="search"><input id="q" type="search" placeholder="Search drugs, rhythms, phases, Q1–Q27…" aria-label="Search"><div id="qres"></div></div>
+  <button id="theme" class="iconbtn" aria-label="Toggle theme">◑</button>
+</header>
+<div class="wrap">
+  <aside class="side">
+    <div class="prog">
+      <div class="prog-t" id="prog-txt">0/13 modules</div>
+      <div class="prog-o"><div class="prog-i" id="prog-bar"></div></div>
+    </div>
+    <nav class="nav" id="nav"></nav>
+  </aside>
+  <main id="main"></main>
+</div>
+<div id="scrim"></div>
+<script src="lib/three.min.js"></script>
+<script src="lib/OrbitControls.js"></script>
+<script src="js/models.js"></script>
+<script src="js/render.js"></script>
+<script src="js/app.js"></script>
+<script src="js/content.js"></script>
+<script src="js/quiz.js"></script>
+<script src="js/heart3d.js"></script>
+<script src="js/sections-a.js"></script>
+<script src="js/sections-b.js"></script>
+<script src="js/sections-c.js"></script>
+<script>App.boot();</script>
+</body>
+</html>
