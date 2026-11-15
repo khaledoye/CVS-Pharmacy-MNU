@@ -120,7 +120,7 @@
     const th = document.getElementById('theme');
     const setT = (t) => { document.documentElement.setAttribute('data-theme', t); App.state.theme = t; th.textContent = t === 'light' ? '◐' : '◑'; try { App.save(); } catch (e) { } };
     th.addEventListener('click', () => setT(document.documentElement.getAttribute('data-theme') === 'light' ? 'dark' : 'light'));
-    setT(App.state.theme || 'dark');
+    setT(App.state.theme || 'light');
     // quick search
     const q = document.getElementById('q'), res = document.getElementById('qres');
     const INDEX = [];

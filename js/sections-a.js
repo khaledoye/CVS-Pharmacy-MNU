@@ -7,6 +7,7 @@
 
   /* ---------------- 1. OVERVIEW ---------------- */
   S.overview = function (m) {
+    m.appendChild(h('div', { class: 'hero' }, h('img', { src: 'assets/mnu-logo.png', alt: 'MNU' }), h('img', { src: 'assets/pharmacy-logo.png', alt: 'Faculty of Pharmacy' }), h('div', {}, h('h2', {}, 'Cardiac Arrhythmias — Interactive Lab'), h('p', {}, 'PP 907 · Pharmacotherapy of Cardiovascular Diseases'), h('div', { class: 'by' }, 'Faculty of Pharmacy · Mansoura National University · Clinical Pharmacy Department'))));
     m.appendChild(U.card('Cardiac arrhythmias',
       h('p', { class: 'lead' }, '“', K.definition, '”'), U.tag('L'),
       h('p', {}, 'Four things can go wrong, and the definition names all four: the ', h('b', {}, 'rate'), ' (too fast, too slow), the ', h('b', {}, 'regularity'), ' (irregular), the ', h('b', {}, 'origin'), ' (a pacemaker other than the SA node) and the ', h('b', {}, 'conduction'), ' (blocked or taking an abnormal route). Every arrhythmia in this lecture is one or more of those four.'),

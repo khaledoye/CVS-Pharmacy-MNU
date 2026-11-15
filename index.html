@@ -1,18 +1,18 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<html lang="en" data-theme="light">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Cardiac Electrophysiology &amp; Antiarrhythmic Pharmacotherapy — Interactive Simulator</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <header class="top">
   <button id="menu" class="iconbtn" aria-label="Menu">☰</button>
-  <div class="brand"><span class="dot"></span><span>Arrhythmia Simulator<small>PP 907 · Pharmacotherapy of Cardiovascular Diseases · Pharm D level 5</small></span></div>
+  <div class="brand"><span class="logos"><img src="assets/mnu-logo.png" alt="Mansoura National University"><img src="assets/pharmacy-logo.png" alt="Faculty of Pharmacy, MNU"></span><span class="brand-t"><b>Arrhythmia Simulator</b><small>PP 907 · Pharmacotherapy of Cardiovascular Diseases · Pharm D level 5</small></span></div>
   <div class="spacer"></div>
   <div class="search"><input id="q" type="search" placeholder="Search drugs, rhythms, phases, Q1–Q27…" aria-label="Search"><div id="qres"></div></div>
   <button id="theme" class="iconbtn" aria-label="Toggle theme">◑</button>
@@ -28,6 +28,7 @@
   <main id="main"></main>
 </div>
 <div id="scrim"></div>
+<footer class="foot" style="padding:1rem 1.4rem"><img src="assets/mnu-logo.png" alt=""><img src="assets/pharmacy-logo.png" alt=""><span>Faculty of Pharmacy · Mansoura National University — Clinical Pharmacy Department. Educational simulation; not for clinical decision-making.</span></footer>
 <script src="lib/three.min.js"></script>
 <script src="lib/OrbitControls.js"></script>
 <script src="js/models.js"></script>
