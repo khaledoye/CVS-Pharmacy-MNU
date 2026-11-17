@@ -1,3 +1,6 @@
+/* CVS-Pharmacy-MNU — © 2026 Khaled Osama Yaseen. All rights reserved.
+ * Faculty of Pharmacy, Mansoura National University. Proprietary — not licensed
+ * for reuse, copying, modification, or redistribution. See LICENSE. */
 /* =====================================================================
    models.js — SIMULATION CORE
    Simplified, phase-structured electrophysiology models (educational).

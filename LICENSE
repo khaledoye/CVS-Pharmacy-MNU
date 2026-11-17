@@ -1,0 +1,39 @@
+Copyright © 2026 Khaled Osama Yaseen. All rights reserved.
+
+CVS-Pharmacy-MNU — Interactive Cardiac Arrhythmia & Antiarrhythmic
+Pharmacotherapy Lab. Faculty of Pharmacy, Mansoura National University.
+
+This repository is published PUBLICLY for the sole purpose of free hosting
+(GitHub Pages) and free educational access to the LIVE WEBSITE. Public
+visibility does NOT make this project open source, and no rights are granted
+beyond those stated below.
+
+PERMITTED
+  - Viewing and using the live website
+    (https://khaledoye.github.io/CVS-Pharmacy-MNU/) for personal, non-commercial
+    study and teaching.
+  - Linking to the live website and sharing that link.
+
+NOT PERMITTED without the author's prior written permission
+  - Copying, downloading, cloning, forking, mirroring, or redistributing the
+    source code, content, text, questions, simulations, or assets, in whole or
+    in part.
+  - Modifying, adapting, translating, or creating derivative works from any part
+    of this project.
+  - Re-publishing or re-hosting this project, or any part of it, on any other
+    site, platform, or repository.
+  - Using any part of this project, including its code, educational content, or
+    simulation logic, in another product, course, or application.
+  - Commercial use of any kind.
+  - Removing or altering this notice or the copyright headers in the files.
+
+The author retains full copyright over all original code and educational
+content. Third-party components retain their own licenses: Three.js and
+OrbitControls are © their respective authors under the MIT License, and the
+Cairo and Inter fonts are under the SIL Open Font License; none of those
+licenses extend to this project's own code or content.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND. It is an
+educational simulation and must NOT be used for clinical decision-making.
+
+For permissions or inquiries, contact the author.

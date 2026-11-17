@@ -1,3 +1,6 @@
+/* CVS-Pharmacy-MNU — © 2026 Khaled Osama Yaseen. All rights reserved.
+ * Faculty of Pharmacy, Mansoura National University. Proprietary — not licensed
+ * for reuse, copying, modification, or redistribution. See LICENSE. */
 /* Boot file. Kept separate so index.html carries no inline script,
    which lets the Content-Security-Policy use script-src 'self'. */
 

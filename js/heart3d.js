@@ -1,3 +1,6 @@
+/* CVS-Pharmacy-MNU — © 2026 Khaled Osama Yaseen. All rights reserved.
+ * Faculty of Pharmacy, Mansoura National University. Proprietary — not licensed
+ * for reuse, copying, modification, or redistribution. See LICENSE. */
 /* =====================================================================
    heart3d.js — Three.js cardiac conduction-system model.
    Schematic (not anatomically exact) geometry; activation timing based on

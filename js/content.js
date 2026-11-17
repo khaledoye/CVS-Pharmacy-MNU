@@ -1,3 +1,6 @@
+/* CVS-Pharmacy-MNU — © 2026 Khaled Osama Yaseen. All rights reserved.
+ * Faculty of Pharmacy, Mansoura National University. Proprietary — not licensed
+ * for reuse, copying, modification, or redistribution. See LICENSE. */
 /* =====================================================================
    content.js — EDUCATIONAL CONTENT (data only)
    Source tags:  L = stated in the lecture (Arrythmia.pdf, pp. 47–59)
