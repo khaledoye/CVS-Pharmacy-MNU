@@ -342,4 +342,6 @@ table.lect td:first-child,table.cmp-t td:first-child{font-weight:650;color:var(-
 @media(max-width:720px){.logos img{height:32px}.brand-t small{display:none}.hero img{height:62px}}
 @media(max-width:720px){.brand-t{display:none}.logos img{height:30px}.search{width:30vw}}
 
-.foot{padding:1rem 1.4rem}
+.foot{padding:1rem 1.4rem}.foot .credit{display:block;margin-top:.4rem;font-weight:600;color:var(--txt);font-size:.82rem;line-height:1.7}
+.foot .credit a{color:var(--cyan);text-decoration:none;direction:ltr;unicode-bidi:isolate}
+.foot .credit a:hover{text-decoration:underline}
