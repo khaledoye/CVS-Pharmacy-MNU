@@ -2,12 +2,11 @@
 <html lang="en" data-theme="light">
 <head>
 <meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'; upgrade-insecure-requests">
+<meta name="referrer" content="no-referrer">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Cardiac Electrophysiology &amp; Antiarrhythmic Pharmacotherapy — Interactive Simulator</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css?v=3">
+<link rel="stylesheet" href="css/style.css?v=4">
 </head>
 <body>
 <header class="top">
@@ -28,7 +27,7 @@
   <main id="main"></main>
 </div>
 <div id="scrim"></div>
-<footer class="foot" style="padding:1rem 1.4rem"><img src="assets/mnu-logo.png" alt=""><img src="assets/pharmacy-logo.png" alt=""><span>Faculty of Pharmacy · Mansoura National University — Clinical Pharmacy Department. Educational simulation; not for clinical decision-making.</span></footer>
+<footer class="foot"><img src="assets/mnu-logo.png" alt=""><img src="assets/pharmacy-logo.png" alt=""><span>Faculty of Pharmacy · Mansoura National University — Clinical Pharmacy Department. Educational simulation; not for clinical decision-making.</span></footer>
 <script src="lib/three.min.js"></script>
 <script src="lib/OrbitControls.js"></script>
 <script src="js/models.js?v=3"></script>
@@ -40,6 +39,6 @@
 <script src="js/sections-a.js?v=3"></script>
 <script src="js/sections-b.js?v=3"></script>
 <script src="js/sections-c.js?v=3"></script>
-<script>App.boot();</script>
+<script src="js/boot.js?v=4"></script>
 </body>
 </html>
